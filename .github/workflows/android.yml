@@ -33,7 +33,7 @@ jobs:
       - name: Initialize Capacitor Android Platform
         run: |
           npm install @capacitor/core @capacitor/cli @capacitor/android
-          npx cap init UltraDex com.gothic.ultradex --web-dir dist --yes
+          npx cap init UltraDex com.gothic.ultradex --web-dir dist
           npx cap add android
           npx cap sync
 
